@@ -6,6 +6,7 @@ import numpy as np
 
 # Read the image
 image = cv2.imread('./image/bae-seok-ryu.png')
+
 print(f"[INFOR] image size: {image.shape[:2]}")
 
 # Top-left
@@ -25,3 +26,5 @@ cv2.imshow('Original and Grayscale', image)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+
