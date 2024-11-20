@@ -31,7 +31,7 @@ for r in results:
         if conf > 0.1:
             cvzone.putTextRect(img, f'{class_labels[cls]} {conf}', (x1, y1 - 10), scale=0.8, thickness=1, colorR=(255, 0, 0))
 
-            # Display the image with detections
+# Display the image with detections
 cv2.imshow("Image", img)
 
 # Close window when 'q' button is pressed
